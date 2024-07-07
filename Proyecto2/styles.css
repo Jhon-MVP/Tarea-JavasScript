@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #af4caf;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+.game {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center; /* Centrar el contenido */
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #af4caf;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #af4caf;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.games-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Espacio entre los juegos */
+}
+
+.game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+    flex: 1 1 calc(33.333% - 20px); /* Ocupa un tercio del contenedor */
+    box-sizing: border-box; /* Incluye padding y border en el tamaño total */
+    min-width: 200px; /* Ancho mínimo para los juegos */
+}
+
+.game img {
+    width: 100px; /* Ajusta el ancho según sea necesario */
+    height: 100px; /* Ajusta la altura según sea necesario */
+    object-fit: cover; /* Ajusta la imagen para que quepa dentro del contenedor */
+    margin-bottom: 10px; /* Espacio entre la imagen y el título */
+}
+
+.game h3 {
+    margin: 10px 0; /* Margen alrededor del título */
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #af4caf;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #af4caf;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
